@@ -1,19 +1,24 @@
 {
-  "customer": {
-    "name": "Karthik",
-    "address": "Bangalore villa, whitefield",
-    "contact": "+917777788888",
-    "orders": [
-        {
-          "id": 1234,
-          "name": "Jio VR headset",
-          "delivery date": "15th March 2025"
-        },
-        {
-          "id": 5678,
-          "name": "Jio mobile phone",
-          "delivery date": "18th March 2025"
-        }
-      ]
-  }
+  "customers": [
+    {
+      "id": 1,
+      "name": "Karthik",
+      "address": "Bangalore villa, Whitefield",
+      "contact": "+917777788888"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1234,
+      "customerId": 1,
+      "name": "Jio VR headset",
+      "deliveryDate": "15th March 2025"
+    },
+    {
+      "id": 5678,
+      "customerId": 1,
+      "name": "Jio mobile phone",
+      "deliveryDate": "18th March 2025"
+    }
+  ]
 }
